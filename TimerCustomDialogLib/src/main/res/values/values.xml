@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="SECOND_CONSTANT">60</integer>
+    <integer name="HOUR_SECOND_CONSTANT">3600</integer>
+    <integer name="SECOND_CONSTANT_MINUS_ONE">59</integer>
+</resources>
