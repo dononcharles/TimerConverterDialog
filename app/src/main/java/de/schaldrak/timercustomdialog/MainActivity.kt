@@ -13,10 +13,12 @@ class MainActivity : AppCompatActivity() {
         val secondField = findViewById<TextInputEditText>(R.id.secondTimerTiet)
         secondField.apply {
             setOnClickListener {
-                STimerDialog(this@MainActivity).customTimerSet(presetInputValue = this.text.toString().toInt()) { hInSecond, mInSecond, second ->
+                STimerDialog(this@MainActivity).customTimerSet(presetInputValue = this.text.toString().toIntOrZero()) { hInSecond, mInSecond, second ->
                     this.setText((hInSecond + mInSecond + second).toString())
                 }
             }
         }
     }
 }
+
+internal fun String.toIntOrZero() = runCatching { toInt() }.getOrDefault(0)

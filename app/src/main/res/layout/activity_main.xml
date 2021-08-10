@@ -25,6 +25,7 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/secondTimerTil"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
             android:layout_width="250dp"
             android:layout_height="0dp"
             android:layout_gravity="center"
@@ -36,8 +37,8 @@
                 style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:hint="@string/timer_in_second"
                 android:focusable="false"
+                android:hint="@string/timer_in_second"
                 android:imeOptions="actionNext"
                 android:inputType="number" />
 
