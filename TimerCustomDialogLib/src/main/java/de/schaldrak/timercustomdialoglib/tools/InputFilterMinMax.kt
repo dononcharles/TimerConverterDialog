@@ -17,6 +17,5 @@ internal class InputFilterMinMax(private var min: Int, private var max: Int) : I
         }
         return ""
     }
-
     private fun isInRange(a: Int, b: Int, c: Int): Boolean = if (b > a) c in a..b else c in b..a
 }

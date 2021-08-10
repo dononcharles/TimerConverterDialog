@@ -10,7 +10,7 @@ import de.schaldrak.timercustomdialoglib.tools.toIntOrZero
 /**
  * @author Komi Donon <dononcharles@gmail.com>
  * @since 8/10/2021.
- * <doc>This class is a custom timer dialog to return hours or minutes in seconds
+ * <doc>This class is a custom timer dialog to return hours or minutes in seconds</doc>
  */
 data class STimerDialog(private val activity: Activity) {
 
