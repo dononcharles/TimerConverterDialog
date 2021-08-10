@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <public name="label_hours" type="string" />
+    <string name="label_hours">Stunden</string>
+
+    <string name="label_minutes">Minuten</string>
+    <string name="label_seconds">Sekunden</string>
+    <string name="cancel">Abbrechen</string>
+    <string name="set">Setzen</string>
+    <string name="set_time">ZEIT IN SEKUNDEN EINSTELLEN</string>
+</resources>
