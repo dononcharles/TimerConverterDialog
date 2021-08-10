@@ -25,7 +25,6 @@
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/secondTimerTil"
-            style="@style/TextInputLayout"
             android:layout_width="250dp"
             android:layout_height="0dp"
             android:layout_gravity="center"
