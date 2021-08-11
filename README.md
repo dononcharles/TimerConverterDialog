@@ -1,4 +1,5 @@
-[![](https://jitpack.io/v/dononcharles/TimerCustomDialog.svg)]  (https://jitpack.io/#dononcharles/TimerCustomDialog
+![](https://jitpack.io/v/dononcharles/TimerCustomDialog.svg)  
+(https://jitpack.io/#dononcharles/TimerCustomDialog
 
 # TimerCustomDialog
 Timer custom dialog is a second converter tool. It converts hours, minutes and seconds into seconds.
