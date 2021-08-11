@@ -1,7 +1,20 @@
+[![](https://jitpack.io/v/dononcharles/TimerCustomDialog.svg)]  (https://jitpack.io/#dononcharles/TimerCustomDialog
+
 # TimerCustomDialog
 Timer custom dialog is a second converter tool. It converts hours, minutes and seconds into seconds.
 
 # How to use
+* Add dependency
+```
+allprojects {
+  repositories {
+      maven { url 'https://jitpack.io' }
+  }
+}
+```
+```
+ implementation 'com.github.dononcharles:TimerCustomDialog:Tag@aar'
+```
 * Add TextInputEditText in your layout file
 ```
 <com.google.android.material.textfield.TextInputLayout
