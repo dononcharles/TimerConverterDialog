@@ -6,7 +6,6 @@ import android.text.Spanned
 /**
  * @author Komi Donon
  * @since 10/14/2020.
- * Lorentz
  */
 internal class InputFilterMinMax(private var min: Int, private var max: Int) : InputFilter {
     override fun filter(source: CharSequence, start: Int, end: Int, dest: Spanned, dstart: Int, dend: Int): CharSequence? {
