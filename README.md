@@ -1,8 +1,8 @@
-![](https://jitpack.io/v/dononcharles/TimerCustomDialog.svg)  
-https://jitpack.io/#dononcharles/TimerCustomDialog
+![](https://jitpack.io/v/dononcharles/TimerConverterDialog.svg)  
+https://jitpack.io/#dononcharles/TimerConverterDialog
 
-# TimerCustomDialog
-Timer custom dialog is a second converter tool. It converts hours, minutes and seconds into seconds.
+# TimerConverterDialog
+Timer converter dialog converts time (HH:MM:SS) into seconds.
 
 # How to use
 * Add dependency
@@ -14,7 +14,7 @@ allprojects {
 }
 ```
 ```
- implementation 'com.github.dononcharles:TimerCustomDialog:Tag@aar'
+ implementation 'com.github.dononcharles:TimerConverterDialog:Tag@aar'
 ```
 * Add TextInputEditText in your layout file
 ```
@@ -54,4 +54,4 @@ val secondField = findViewById<TextInputEditText>(R.id.secondTimerTiet)
 ### See "app" folder for usage
 
 # DEMO
-<img src="https://github.com/dononcharles/TimerCustomDialog/blob/master/snapshot.gif" width="350" height="768"/>
+<img src="https://github.com/dononcharles/TimerConverterDialog/blob/master/snapshot.gif" width="350" height="768"/>
